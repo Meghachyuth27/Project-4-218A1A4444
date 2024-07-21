@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" href="mystyles.css">
+    </head>
+    <body style="background-color: beige;">
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html">About us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li><a href="registration.html" class="active">Sign up</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+        <div style="padding-left: 500px;">
+        <form action="login.html">
+        <h1>Registration Page</h1>
+        Username: <input type="text" placeholder="username" autofocus><br><br>
+        Password: <input type="password" placeholder="password"><br><br>
+        Date of birth: <input type="date"><br><br>
+        Gender:<input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other<br><br>
+        Select Area:
+        <input list="Area" name="mymail">
+        <datalist id="email">
+            <option value="ongole"></option>
+            <option value="hyderabad"></option>
+            <option value="banglore"></option>
+        </datalist>
+            <br>
+            Languages known:<input type="checkbox" name="lang">TELUGU
+            <input type="checkbox" name="lang">HINDI
+            <input type="checkbox" name="lang">ENGLISH<br><br>
+            Describe about your place:<br><textarea rows="10" cols="20">
+            </textarea><br><br>
+            
+            Enter date of visit <input type="week"><br>
+            <br>
+            Enter your mobile number: <input type="tel" pattern="[0-9]{10}">
+            <br><br>Enter your mail id:<input type="email"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+        <br>
+        <br>
+
+    </body>
+    <footer class="footer">
+        <p style="text-align: center;"> 2024 my AndhraWala&copy;. All rights reserved  </p>
+    </footer>
+</html>
